@@ -1,0 +1,185 @@
+
+body {
+    font-family: 'Lobster Two';
+    font-weight: 300;
+    background-image: url("../img/background.png");
+    background-size: cover;
+    left: 0;
+    margin: 0;
+    overflow: visible;
+    position: relative;
+}
+
+header {
+    padding: 2%;
+    padding-left: 20px;
+    align-items: center;
+}
+
+header .row,
+footer .row{
+
+}
+
+header h1 {
+    font-weight: 400;
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header p {
+    padding: 0 20px;
+    padding-top: 15px;
+    margin: auto;
+}
+
+.menu{
+    left: -185px;
+    height: 100%;
+    position: fixed;
+    width: 185px;
+    text-transform: uppercase;
+    padding-top: 70px;
+}
+
+.menu ul {
+    border-top: 1px solid #636366;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    border-bottom: 1px solid #636366;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 45px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-top: 3px;
+    padding-right: 30px;
+}
+
+.menu a {
+    color: black;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.icon-close {
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    padding-left: 10px;
+    padding-top: 10px;
+    text-transform: uppercase;
+}
+
+.jumbotron {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    background-image: url("../img/jumbo.png");
+    background-position: 60% 60%;
+    background-size: cover;
+    color: #ffffff;
+    height: 500px;
+}
+.jumbotron .icon-menu{
+    align-self: flex-start;
+    font-size: 20px;
+}
+
+
+.jumbotron h2{
+    align-items: center;
+    font-size: 60px;
+    width: 100%;
+    margin: 0;
+    color: #fff;
+}
+
+.jumbotron h3{
+    align-items: center;
+    margin: 0 0 20px;
+    color: #fff;
+}
+
+.icon-menu {
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.container-fluid{
+    text-align: center;
+    padding: 2%;
+}
+
+.container-fluid h6{
+    text-align: center;
+}
+
+.container-fluid p{
+    padding: 0.7%;
+}
+
+
+section .row img{
+    margin: 0 0 30px;
+    width: 100%;
+}
+
+.btn.btn-primary {
+    border-radius: 2px;
+    border: 0px;
+    color: #fbd1d5;
+    text-shadow: none;
+    background-color: #f0f0ff;
+    align-self: center;
+}
+
+.col-sm-6 {
+    text-align: center;
+}
+
+.footer {
+    font-size: 50px;
+    padding: 20px;
+}
+
+.footer .col-sm-8 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer ul{
+    list-style: none;
+    align-items: flex-end;
+}
+
+.footer li img{
+    width: 32px;
+    height: 32px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
