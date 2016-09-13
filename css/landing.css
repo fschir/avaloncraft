@@ -13,7 +13,7 @@ body {
 a{
     text-decoration: none;
     background-color: none; 
-    color: black;
+    color: lightgrey;
 }
 
 a:visited {
@@ -58,4 +58,20 @@ body #top-container .top-wrapper #main-navigation #circle-head{
 
 body #top-container .top-wrapper #main-navigation li #logo{
    
+}
+
+body section .center-wrapper{
+    margin: 18%;
+    align-self: center;
+    text-align: center;
+}
+
+body section .center-wrapper h1{
+    font-family: 'OpenSans';
+    color: lightgrey;
+}
+
+body section .center-wrapper h2{
+    font-family: 'OpenSans';
+    color: darkgrey;
 }
