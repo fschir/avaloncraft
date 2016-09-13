@@ -1,0 +1,61 @@
+
+body {
+    font-family: 'OpenSans';
+    font-weight: 200;
+    background-image: url("../img/background-cs.jpg");
+    background-size: initial;
+    left: 0;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+a{
+    text-decoration: none;
+    background-color: none; 
+    color: black;
+}
+
+a:visited {
+    color: lightgrey;
+}
+
+body section {
+    background: transparent;
+    width: 100%
+}
+
+body #top-container .top-wrapper{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    align-self: center;
+}
+
+
+body #top-container .top-wrapper #main-navigation{
+    padding-top: 10px;
+    padding-bottom: 15px;
+    margin-right: 125px;
+    margin-left: 50px;
+    border-bottom: 1px solid;
+    border-color: lightgrey;
+    text-align: right;
+    color: grey;
+}
+
+body #top-container .top-wrapper #main-navigation li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 0;
+    text-align: center;
+    padding-right: 15px;
+}
+
+body #top-container .top-wrapper #main-navigation #circle-head{
+    float: left;
+}
+
+
+body #top-container .top-wrapper #main-navigation li #logo{
+   
+}
